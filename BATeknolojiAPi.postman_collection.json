@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "f840c709-c278-4035-ac09-6a94fa762c12",
+		"name": "BATeknolojiAPi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/BATeknoloji/Api/Pratices",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"BATeknoloji",
+						"Api",
+						"Pratices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "deleteID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "createID",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"createID\",\"title\":\"createTitle\",\"problem\":\"createProblem\",\"level\":\"createLevel\",\"language\":\"createLanguage\",\"input\":\"createInput\",\"expected_output\":\"createExpected_Output\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/BATeknoloji/Api/Pratices",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"BATeknoloji",
+						"Api",
+						"Pratices"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
