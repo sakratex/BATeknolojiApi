@@ -1,0 +1,1 @@
+curl -i -H "Content-Type: application/json" -X POST -d "{"'"id"'":"'"34"'","'"title"'":"'"sds"'","'"problem"'":"'"sfs"'","'"level"'":"'"sdfsd"'","'"language"'":"'"ass"'","'"input"'":"'"rtrtt"'","'"expected_output"'":"'"dfdf"'"}" http://127.0.0.1:5000/BATeknoloji/Api/Pratices
